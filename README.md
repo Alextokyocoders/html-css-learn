@@ -22,3 +22,20 @@ FIX:
 
 + Như vậy, ta hình dung khi làm desgin thì sau khi viết component xong ta mới bố trí, còn trong html thì khi đánh ra 1 div thì nó tự bố trí cho ta ở ngay phía dưới rồi. 
 => Vậy trước khi viết html, clone 1 trang web nào đó, ta phải chia bố cục của trang đó, header =container{ (band, navbar...)}, section = container{(showcases,..)}
+
+
+* Mặc định của thẻ `ul`
+
+user agent stylesheet 
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+nếu cho padding và margin về 0 thì tự động mất bullet.
