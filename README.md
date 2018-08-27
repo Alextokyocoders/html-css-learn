@@ -9,3 +9,11 @@
 + 2 div parent ngang hàng:
   `parent 1` và `paretn 2` ngang hàng, và `parent 2` ở dưới (được viết thứ tự sau trong html) sẽ nằm ở layout trên tất cả mọi cấp `child` của `parent 1`
  
+
+FIX:
+
++ vị trí của 1 div trong html sẽ bắt đầu từ vị trí (0,0) của content trong parent của div đó. ( Still right)
+
++ layout trong html giống hoàn toàn trong design:
+  + tức là div viết sau sẽ nằm trên layout của div viết trước
+  + ví trí của div viết sau sẽ là ngay dưới div viết trước, lấy điểm đó làm (0,0)
