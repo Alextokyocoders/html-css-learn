@@ -17,3 +17,8 @@ FIX:
 + layout trong html giống hoàn toàn trong design:
   + tức là div viết sau sẽ nằm trên layout của div viết trước
   + ví trí của div viết sau sẽ là ngay dưới div viết trước, lấy điểm đó làm (0,0)
+  
+* Áp dụng ?
+
++ Như vậy, ta hình dung khi làm desgin thì sau khi viết component xong ta mới bố trí, còn trong html thì khi đánh ra 1 div thì nó tự bố trí cho ta ở ngay phía dưới rồi. 
+=> Vậy trước khi viết html, clone 1 trang web nào đó, ta phải chia bố cục của trang đó, header =container{ (band, navbar...)}, section = container{(showcases,..)}
