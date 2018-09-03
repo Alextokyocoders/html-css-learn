@@ -7,7 +7,7 @@ body {
     display: flex;
     padding: 0;
     list-style: none;
-    height: 46.5px;
+    /*height: 46.5px;*/
     border-bottom: 1px solid rgba(88,88,88,0.2);
     border-top: 1px solid rgba(88,88,88,0.2);
 }
@@ -42,14 +42,24 @@ cả về chiều rộng và chiều cao nên 2 thẻ li sẽ cách xa nhau.
     position: relative;    
 }
 
+.has-submenu:after {
+    content: "";
+    display: block;
+    width: 0;
+    border-bottom: 1px solid #7b51ba;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s;
+}
 
-.has-submenu>a {
-    border-bottom: 1.5px solid transparent;
+.has-submenu:hover:after {
+    width: 100%;
 }
 
 .has-submenu>a:hover {
     color: #7b51ba;
-    border-bottom: 1.5px solid;
 }
 
 .has-submenu:hover .submenu{
@@ -69,7 +79,7 @@ vi submenu nam trong has-submenu
     padding: 0;
     position: absolute;
     left: 0;
-    top: 106%;
+    top: 100%;
     display: none;
 }
 
