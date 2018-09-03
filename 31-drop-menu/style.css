@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    height: 46.5px;
+    border-bottom: 1px solid rgba(88,88,88,0.2);
+    border-top: 1px solid rgba(88,88,88,0.2);
+}
+
+.menu a {
+    padding: 15px 16px;
+    display: block; 
+    text-decoration: none;
+    color: #000;
+    /*font-weight: 550;*/
+/*
+khi thẻ a không có block mà chỉ có padding:
+thì do tính chất thẻ a là display inline cho nên nó chỉ có tác dụng 
+ở chiều dài ngang, là padding left và right, còn ở top và bottom thì
+không có tác dụng, cho nên lúc đó pading của nó chỉ làm cho thẻ li
+mở rộng theo chiều ngang, cho nên 2 thẻ li vẫn dính vào nhau.
+còn nếu có thẻ a cho về display block thì nó làm cho thẻ li to ra
+cả về chiều rộng và chiều cao nên 2 thẻ li sẽ cách xa nhau.
+    */
+
+    /*
+    
+    các thẻ mà sau khi bị absolute thì có phải chuyển thành
+    dạng inline?
+
+    */
+}
+
+
+
+.has-submenu{
+    position: relative;    
+}
+
+
+.has-submenu>a {
+    border-bottom: 1.5px solid transparent;
+}
+
+.has-submenu>a:hover {
+    color: #7b51ba;
+    border-bottom: 1.5px solid;
+}
+
+.has-submenu:hover .submenu{
+    display: block;
+    background-color: #fff;
+    box-shadow: 0px 0px 0.8px 0px rgba(0,0,0,0.4);
+}
+
+/*khi hover vao has-submenu thi submenu hien ra
+sau do ta de chuot vao phan submenu thi no cung hien ra
+vi submenu nam trong has-submenu
+*/
+
+
+.submenu{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 106%;
+    display: none;
+}
+
+
+.submenu>li a:hover {
+    background-color: #EEE;
+    color: #7b51ba;
+}
