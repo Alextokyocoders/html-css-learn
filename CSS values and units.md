@@ -31,7 +31,7 @@ Bạn cũng sẽ nhìn thấy những ví dụ sử dụng đơn vị trong tấ
 ___
 ## Numeric values
 Bạn sẽ thấy những số được sử dụng nhiều trong CSS units. Phần này thảo luận các classes phổ biến nhất của giá trị số.
-## Chiều dài và cỡ (Length and size)
+## Length and size
 Bạn sẽ sử dụng length/size units (xem [\<length\>](https://developer.mozilla.org/en-US/docs/Web/CSS/length) tham khảo) tất cả mọi lần bạn sử dụng CSS cho bố trí (layouts), kiểu chữ (typography) và các thứ khác. Hãy nhìn ví dụ đơn giản sau
 Đầu tiên là HTML:
 ```HTML
