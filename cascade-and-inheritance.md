@@ -6,7 +6,7 @@
   - [A note on rule mixing](#a-note-on-rule-mixing)
 - [Inheritance](#inheritance)
   - [Controlling inheritance](#controlling-inheritance)
-  - [Resetting all property values](resetting-all-property-values)
+  - [Resetting all property values](#resetting-all-property-values)
 ___
 ## Inheritance
 
