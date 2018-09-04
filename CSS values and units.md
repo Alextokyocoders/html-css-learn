@@ -1,7 +1,7 @@
 # CSS values and units
 
 - [Numeric values](#numeric-values)
-  - [Length and size](#ch)
+  - [Length and size](#l)
   - [Unitless values](#sub-heading)
     - [Unitness line height](#sub-sub-heading)
     - [Number of animations](#sub-sub-heading)
