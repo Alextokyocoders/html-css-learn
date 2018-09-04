@@ -2,7 +2,7 @@
 
 - [Which CSS entities participate in the cascade](#which-css-entities-participate-in-the-cascade)
 - [Origin of CSS declarations](#origin-of-css-declarations)
-  - [User-agent stylesheets](user-agent-stylesheets)
+  - [User-agent stylesheets](#user-agent-stylesheets)
   - [Author stylesheets](#author-stylesheets)
   - [User stylesheets](#user-stylesheets)
 - [Cascading order](#cascading-order)
