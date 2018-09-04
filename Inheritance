@@ -1,0 +1,6 @@
+#Inheritance
+CSS inheritance is the last piece we need to investigate to get all the information and understand what style is applied to an element. The idea is that some property values applied to an element will be inherited by that element's children, and some won't.
+
+For example, it makes sense for font-family and color to be inherited, as that makes it easy for you to set a site-wide base font by applying a font-family to the <html> element; you can then override the fonts on individual elements where needed. It would be really annoying to have to set the base font separately on every element.
+As another example, it makes sense for margin, padding, border, and background-image to NOT be inherited. Imagine the styling/layout mess that would occur if you set these properties on a container element and had them inherited by every single child element, and then had to unset them all on each individual element!
+Which properties are inherited by default and which aren't is largely down to common sense? If you want to be sure, however, you can consult the CSS Reference — each separate property page contains a summary table including various details about that element, including whether it is inherited or not.
