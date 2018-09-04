@@ -1,6 +1,6 @@
 # CSS values and units
 
-- [Numeric values](#heading)
+- [Numeric values](#Numeric values)
   - [Length and size](#sub-heading)
   - [Unitless values](#sub-heading)
     - [Unitness line height](#sub-sub-heading)
