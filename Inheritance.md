@@ -1,4 +1,4 @@
-#Inheritance
+# Inheritance
 CSS inheritance is the last piece we need to investigate to get all the information and understand what style is applied to an element. The idea is that some property values applied to an element will be inherited by that element's children, and some won't.
 
 For example, it makes sense for font-family and color to be inherited, as that makes it easy for you to set a site-wide base font by applying a font-family to the <html> element; you can then override the fonts on individual elements where needed. It would be really annoying to have to set the base font separately on every element.
