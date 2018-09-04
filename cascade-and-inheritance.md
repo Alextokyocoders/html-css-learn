@@ -67,9 +67,9 @@ body {
 }
 ```
 Giải thích:
-- Đầu tiên cài đặt `color` cho `\<body\>` thành màu green.
+- Đầu tiên cài đặt `color` cho `<body>` thành màu green.
 - Bởi vì `color` là về bản chất thì nó là một property kế thừa một cách tự nhiên, tất cả các phần tử con của nó sẽ có cùng màu green. Nhưng nó sẽ không có tác dụng vì browsers đã cài đặt màu cho links có màu blue mặc định thay vì cho phép nó kế thừa tự nhiên, cho nên link đầu tiên của chúng ta sẽ có màu blue.
-- nhóm thứ 2 được ghi giá trị `inherit` để kế thừa màu từ cha nó. Trong trường hợp này, link kế thừa màu từ cha nó là thẻ `'\<li\>`, thẻ `li` lại có màu được kế thừa tử cha nó là thẻ `ul` và cuối cùng thẻ `ul` được kế thừa màu thẻ `body`. Từ thẻ `li` đến `body` là theo bản chất kế thừa tự nhiên của `color`
+- nhóm thứ 2 được ghi giá trị `inherit` để kế thừa màu từ cha nó. Trong trường hợp này, link kế thừa màu từ cha nó là thẻ `<li>`, thẻ `li` lại có màu được kế thừa tử cha nó là thẻ `ul` và cuối cùng thẻ `ul` được kế thừa màu thẻ `body`. Từ thẻ `li` đến `body` là theo bản chất kế thừa tự nhiên của `color`
 - cái thứ 3 được để giá trị `initial`. Thông thường, initial value set bởi browsers cho text color là black, cho nên nó chuyển về black.
 - cái cuối cùng được cài đặt `unset`. nếu property đó được kế thừa tự nhiên về thì nó sẽ hoạt động như `inherit` còn nếu tính property đó không kế thừa tự nhiên thì nó hoạt động như initial, trong trường hợp này thì property là color là một property kế thừa tự nhiên từ `body` cho nên nó hoạt động như inherit và chuyển link sang màu green.
 
