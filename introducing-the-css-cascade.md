@@ -70,6 +70,16 @@ When several keyframes are appropriate, it chooses the latest defined in the mos
 
 Also note that values within @keyframes at-rules overwrite all normal values but are overwritten by !important values.
 
+[__animations and the cascade__](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade#CSS_animations_and_the_cascade)
+Mn cho mình hỏi trong tài liệu này nó có bảo là never mixes nghĩa là gì, mình cũng chưa học nhiều về `@keyframes` nên chưa biết
+>*CSS animations and the cascade*
+>CSS animations, using @keyframes at-rules, define animations between >states. Keyframes don't cascade, meaning that at any given time CSS >takes values from only one single @keyframes, and never mixes >multiple ones together.
+
+>When several keyframes are appropriate, it chooses the latest defined >in the most important document, but never combined all together.
+
+
+
+
 ## Example
 
 Hãy nhìn và một ví dụ liên quan đến nhiều nguồn css across các nguồn gốc khác nhau; ở đây gồm có user style sheet, 2 author style sheets, a user stylesheets, và 1 inline styles within the HTML:
