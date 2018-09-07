@@ -14,7 +14,7 @@ Lists cư xử như hầu hết các text khác, nhưng có một số tính ch�
 
 ### __Styling links__
 
-Khi styling links, quant trọng là hiểu cách sử dụng pseudo-class để styling hiệu ứng về trạng thái, và cách để style links dành cho các tính năng giao diện đa dạng như navigation menus và tabs. Chúng ta sẽ học điều đó trong topic n
+Khi styling links, quant trọng là hiểu cách sử dụng pseudo-class để styling hiệu ứng về trạng thái, và cách để style links dành cho các tính năng giao diện đa dạng như navigation menus và tabs. Chúng ta sẽ học điều đó trong topic này.
 
 ### __Web fonts__
 
